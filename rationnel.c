@@ -1,37 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-float addition ( float a , float b) {
+float addition ( float n1 , float d1 , float n2 , float d2 );
+float soustraction ( float n1 , float d1 , float n2 , float d2);
+float multiplication ( float n1 , float d1 , float n2 , float d2 );
+float division ( float n1 , float d1 , float n2 , float d2);
+float comparaison ( float n1 , float d1 , float n2 , float d2);
+float gcd ( float n1 , float d1, float n2, float d2);
 
-}
-
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
-
-float soustraction ( float a , float b) {
-
-}
-
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
-
-float multiplication ( float a , float b) {
-
-}
-
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
-
-float division ( float a , float b) {
-
-}
-
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
-
-float comparaison ( float a , float b) {
-
-}
-
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
-
-float gcd ( float a , float b) {
 
 int T;
 

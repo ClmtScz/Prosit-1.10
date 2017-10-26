@@ -33,6 +33,28 @@ float comparaison ( float a , float b) {
 
 float gcd ( float a , float b) {
 
+int T;
+
+do {
+
+ if (a < b)
+
+{
+
+ T = a;
+
+ a = b;
+
+ b = T;
+
+}
+
+a = a - b;
+
+} while (a);
+
+return b;
+  
 }
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//

@@ -1,5 +1,7 @@
 #ifndef RATIONNEL_H_INCLUDED
 #define RATIONNEL_H_INCLUDED
+#include <stdio.h>
+#include <stdlib.h>
 
 double soustraction (double n1 , double d1 , double n2 , double d2 );
 double multiplication (double n1 , double d1 , double n2 , double d2);

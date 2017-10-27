@@ -72,16 +72,16 @@ void menu() {
 	printf("vos nombres rationnels : %ld/%ld    %ld/%ld", fraction.numerater[0], fraction.denominater[0], fraction.numerater[1], fraction.denominater[1]);
     switch (choix) {
     case 1 :
-			addition(fraction.numerater[0], fraction.denominater[0], fraction.numerater[1], fraction.denominater[1]);
-			break;
+		addition(fraction.numerater[0], fraction.denominater[0], fraction.numerater[1], fraction.denominater[1]);
+		break;
     case 2 :
-			soustraction(fraction.numerater[0], fraction.denominater[0], fraction.numerater[1], fraction.denominater[1]);
-			break;
-		case 3 :
-			multiplication(fraction.numerater[0], fraction.denominater[0], fraction.numerater[1], fraction.denominater[1]);
-			break;
-		case 4 :
-			division(fraction.numerater[0], fraction.denominater[0], fraction.numerater[1], fraction.denominater[1]);
-			break;
+		soustraction(fraction.numerater[0], fraction.denominater[0], fraction.numerater[1], fraction.denominater[1]);
+		break;
+    case 3 :
+		multiplication(fraction.numerater[0], fraction.denominater[0], fraction.numerater[1], fraction.denominater[1]);
+		break;
+    case 4 :
+		division(fraction.numerater[0], fraction.denominater[0], fraction.numerater[1], fraction.denominater[1]);
+		break;
 	}
 }

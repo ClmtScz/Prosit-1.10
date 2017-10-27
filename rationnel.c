@@ -53,6 +53,8 @@ void comparaison (long n1 , long d1 , long n2 , long d2) {
 		printf("%ld/%ld est inférieur à %ld/%ld", n1, d1, n2, d2);
 	} else {
 		printf("%ld/%ld est supérieur à %ld/%ld", n1, d1, n2, d2);
+	}
+}
 //~~~~~~~~~~~~~//
 
 void menu() {

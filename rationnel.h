@@ -8,10 +8,10 @@ float addition ( float n1 , float d1 , float n2 , float d2){
 }
 
 
-float soustraction ( float n1 , float d1 , float n2 , float d2 );
-float multiplication ( float n1 , float d1 , float n2 , float d2);
-float division ( float n1 , float d1 , float n2 , float d2);
-float comparaison ( float n1 , float d1 , float n2 , float d2);
-float gcd ( float n1 , float d1 , float n2 , float d2);
+int soustraction (int n1 , int d1 , int n2 , int d2 );
+int multiplication (int n1 , int d1 , int n2 , int d2);
+int division (int n1 , int d1 , int n2 , int d2);
+int comparaison (int n1 , int d1 , int n2 , int d2);
+int gcd (int n1 , int d1 , int n2 , int d2);
 
 #endif // RATIONNEL_H_INCLUDED

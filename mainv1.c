@@ -16,9 +16,9 @@
 
     case 1 : {
     printf("\n---Numerateur :  ");
-    scanf("%lf", &fra1 *numerateur);
+    scanf("%lf", &fra1.numerateur);
     printf("\n----denominateur :");
-    scanf("%lf",&fra1->denominateur);
+    scanf("%lf",&fra1.denominateur);
     printf("\nLe resultat de la fraction est : %2f\n",saisieFraction1(fra1));
     break;
     }

@@ -7,10 +7,10 @@ double addition (double n1 , double d1 , double n2 , double d2){
     return add;
 }
 
-double soustraction ( float n1 , float d1 , float n2 , float d2);
-double multiplication ( float n1 , float d1 , float n2 , float d2 );
-double division ( float n1 , float d1 , float n2 , float d2);
-double comparaison ( float n1 , float d1 , float n2 , float d2);
+double soustraction ( double n1 , double d1 , double n2 , double d2);
+double multiplication ( double n1 , double d1 , double n2 , double d2 );
+double division ( double n1 , double d1 , double n2 , double d2);
+double comparaison ( double n1 , double d1 , double n2 , double d2);
 double PGCD(int n1, int n2) {
   
     if (a % b == 0) return b;

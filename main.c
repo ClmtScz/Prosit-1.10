@@ -1,9 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include "rationnel.h"
-
-#include <stdio.h>
-#include <stdlib.h>
 #include "rationnel.h"
 
 int main()

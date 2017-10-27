@@ -19,7 +19,7 @@ int main()
     scanf("%lf",&n2);
     printf("\nDenomiteur 2 :");
     scanf("%lf,&d2);
-    printf("\naddtion de %lf / %lf + %lf / %lf est : %lf", n1, d1, n2, d2, addition(n1, d1, n2,d2));
+    printf("\nAddtion de %lf / %lf + %lf / %lf est : %lf", n1, d1, n2, d2, addition(n1, d1, n2,d2));
     break;
     
     case 2 :

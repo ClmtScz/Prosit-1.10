@@ -46,7 +46,13 @@ void division (long n1 , long d1 , long n2 , long d2) {
 	printf("  Le resultat est %ld / %ld", N, D);
 }
 //~~~~~~~~~~~~~//
-void comparaison (long n1 , long d1 , long n2 , long d2);
+void comparaison (long n1 , long d1 , long n2 , long d2) {
+	if (n1 == n2 && d1 == d2) {
+		printf("%ld/%ld et %ld/%ld sont égaux", n1, d1, n2, d2);
+	} else if (n1/d1 < n2/d2) {
+		printf("%ld/%ld est inférieur à %ld/%ld", n1, d1, n2, d2);
+	} else {
+		printf("%ld/%ld est supérieur à %ld/%ld", n1, d1, n2, d2);
 //~~~~~~~~~~~~~//
 
 void menu() {
